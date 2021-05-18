@@ -1,0 +1,9 @@
+Página de inicio
+-Que se pueda acceder desde ahí a distintas vistas como tendencias, historia, etc. 
+-Que sea dinámica y atractiva a primera vista
+Página de historia de la fotografía
+-Que se pueda ver principalmente el texto intercalado con imagenes y que sea de igual forma atractivo.
+-Que predomine sobre otras secciones. 
+Página de tendencias
+-Que se puedan ver varias secciones que predomine en vista con enlaces para ver cada una a detalle.
+-Que sea dinámico y puedan verse varias en la página.
