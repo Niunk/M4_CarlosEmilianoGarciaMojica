@@ -1,0 +1,130 @@
+/*Fuentes*/
+@font-face{
+    font-family:'Droid_Serif';
+    src: url("../fonts/droid-serif/DroidSerif-Regular.ttf");
+}
+@font-face{
+    font-family:'FiraSans';
+    src: url("../fonts/Fira-Sans/FiraSans-Regular.ttf");
+}
+@font-face{
+    font-family:'Habibi';
+    src: url("../fonts/Habibi/Habibi-Regular.ttf");
+}
+/* 
+=ESTRUCTURA*/
+body{
+    margin: 0%;
+}
+/*
+=NAV*/
+nav{
+    height: 149px;
+    background-color: rgba(233,245,150,0.5);
+}
+nav > div > a{
+    text-decoration: none;
+    color: black;
+}
+.fuente_encabezado{
+    font-family: 'FiraSans';
+    font-size: 3em;
+}
+.alto{
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 40px;
+    text-align: center;
+}
+.largo{
+    display: inline-block;
+    width: 16%;
+    border-right: solid;
+    border-color: black;
+}
+#derIzq{
+    left: 68%;
+}
+#izq{
+    left: 84%;
+}
+#tour{
+    display: inline-block;
+}
+#derIzq, #izq{
+    display: inline-block;
+    position: absolute;
+    box-sizing: content-box;
+    height: inherit;
+    border-left: solid;
+    border-color: black; 
+}
+
+/*
+=SECTION*/
+section{
+    height: 740px;
+    background-color: rgba(252,244,151, 0.7);
+}
+#fuente_grande{
+    position: relative;
+    top: 20%;
+    left: 0%;
+    padding-bottom: 40px;
+    font-family: 'Droid_Serif', serif;
+    font-size: 5.5em;
+    font-weight: 300;
+    letter-spacing: 1.1vw;
+    text-align: center; 
+}
+#boton{
+    position: relative;
+    top: 25%;
+    left: 35%;
+    width: 494px;
+    height: 164px;
+    text-align: center;
+    background-color: #C0DB84;
+    border-radius: 60px;
+}
+/*
+=FOOTER*/
+.fuente_abajo{
+    padding-left: 5%;
+    box-sizing: border-box;
+    font-family: 'Habibi';
+    font-size: 1.5rem;
+}
+.posfoot{
+    display:inline-block;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    text-align: left;
+}
+.posDer{
+    position: absolute;
+    left: 50%;
+}
+#izAr{
+    top: 0%;
+    border-bottom: none;
+}
+#derAr{
+    top: 0%;
+    border-left: none;
+}
+#derAb{
+    position: absolute;
+    left:50%;
+    border-top: none;
+    border-left: none;
+}
+#abajo{
+    position: relative;
+    top: 65%;
+    height: 35%;
+    background-color: #FCF497;
+}
+
